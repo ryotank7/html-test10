@@ -1,0 +1,412 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ color: #6c6b6b;
+}
+header{
+	width: 100%;
+	height: 70px;
+	background-color: #EC715F;
+	text-align: center;
+}
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.home{
+	margin:0 auto;
+	width: 1024px;
+	display: inline-block;
+
+}
+.logo {
+	float: left;
+	height: 70px;
+	width: auto;
+}
+.nav-list{
+	margin:0 auto;
+	float: right;
+	text-align: center;
+}
+.fa-bars{
+	display: none;
+}
+
+.nav-list-item{
+	list-style: none;
+	display: inline-block;
+	margin: auto 30px;
+	color: #FAFAFA;
+	font-size: 16px;
+	padding: auto;
+	line-height: 70px;
+}
+
+.visual{
+	height: 650px;
+	width: 100%;
+	background-image: url(img/mv.png);
+	background-size: cover;
+	background-position: center;
+	margin: 0 auto;
+	text-align: center;
+}
+.visual-name{
+	padding-top: 200px;
+	color: #FAFAFA;
+	font-size: 64px;
+}
+.visual-subname{
+	color: #FAFAFA;
+	padding-top: 10px;
+	font-size: 20px;
+}
+
+.portfolio{
+	width: 100%;
+	background-color: #ECEFF1;
+	padding-bottom: 90px;
+	margin: 0 auto;
+}
+.portfolio-visual{
+	width: 920px;
+	margin: 0 auto;
+	text-align: center;
+}
+.main-name{
+	width: 100%;
+	padding-top: 90px;
+	font-size: 32px;
+	color: #000000;
+}
+.portfolio-line{
+	padding-top: 8px;
+	height: 3px;
+	width: 70px;
+	background-color: #EC715F
+	margin:0 auto;
+}
+.main-subname{
+	padding-top: 30px;
+	font-size: 16px
+	color:#000000;
+}
+.portfolio-photo{
+	padding-top: 20px;
+	margin-bottom: 90px;
+}
+.portfolio-item{
+	margin-right: 10px;
+}
+.portfolio-photo-list{
+	height: 250px;
+	width: 300px;
+	padding: 5px;
+	float: left;
+}
+.portfolio-photo-list:nth-child(3) {
+	margin-right: 0;
+}
+.portfolio-photo-list:last-child{
+	margin-right: 0;
+}
+.feature{
+	width: 100%;
+	text-align: center;
+}
+.feature-main{
+	text-align: center;
+	width: 980px;
+	margin: 0 auto;
+}
+.feature-name{
+	padding-top: 90px;
+	font-size: 32px;
+	color: #000000;
+}
+.main-line{
+	margin: 0 auto;
+	border-bottom:solid 1px  #EC715F;
+	padding-top: 5px;
+	height:3px;
+    width: 70px
+}
+.feature-subname{
+	padding-top: 30px;
+	font-size: 16px
+	color:#000000;
+	margin-bottom: 30px;
+}
+.feature-sub{
+	width: 100%;
+}
+.feature-sub-list{
+	width: 320px;
+	text-align:center;
+	font-size: 60px;
+	padding: 5px;
+	margin-bottom: 90px;
+	display: inline-block;
+}
+.feature-sub-title{
+	font-size: 20px;
+	color: #000000;
+	margin:10px auto;
+}
+.feature-sub-text{
+	font-size: 16px;
+    color: #000000
+}
+.profile{
+	background-color: #ECEFF1;
+	width: 100%;
+}
+.profile-box{
+	width: 1024px;
+	text-align: center;
+	margin:0 auto;
+
+}
+.myprofile{
+	margin-top: 30px;
+	display: inline-block;
+	padding-bottom: 90px;
+}
+.profile-photo{
+	width: 512px;
+	text-align: center;
+	display: inline-block;
+}
+.myphoto{
+	height: 250px;
+	width: 250px;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+.myprofile-text{
+	width: 512px;
+	float: right;
+}
+.myname{
+	font-size: 20px;
+}
+.myprofile-text-sub{
+	font-size: 16px;
+	color: #000000;
+	margin-top: 5px
+}
+.myskill{
+	font-size: 20px;
+	margin-top: 20px;
+}
+.myskill-text{
+	font-size: 16px;
+	color: #000000;
+	margin-top:5px;
+}
+.contact{
+	width: 100%;
+	text-align: center;
+	margin-bottom: 90px;
+}
+.contact-main{
+	width: 800px;
+	margin: 0 auto;
+}
+.contact-sub-text{
+	margin-top: 30px;
+}
+.juusho{
+	width: 400px;
+	display: inline-block;
+	margin:0 auto;
+}
+.juusho-main{
+	margin: : 0 auto;
+	padding-left: 30%;
+}
+.juusho-sub{
+	text-align: left;
+}
+.mail{
+	font-size: 20px;
+}
+.mail-text{
+	margin-top: 5px;
+	text-decoration: underline;
+}
+.tell{
+	font-size: 20px;
+	margin-top: 20px;
+}
+.tell-text{
+	margin-top: 5px;
+	text-decoration: underline;
+}
+.sns{
+	width: 400px;
+	float: right;
+	text-align: center;
+}
+.sns-main{
+	margin: 0 auto;
+	text-align: left;
+	padding-left: 10%;
+}
+.sns-image{
+	font-size: 50px;
+	margin-top: 5px;
+	margin-right: 10px;
+}
+.sns-image:last-child{
+	margin-right: none;
+}
+
+
+footer{
+	height: 60px;
+	background-color:#EC715F;
+	text-align: center;
+}
+.footer-name{
+	font-size: 16px;
+	color: #FAFAFA;
+	line-height: 60px;
+}
+
+@media screen and (max-width:767px){
+
+header{
+	width: 90%;
+	height: 50px;
+	margin: 0 auto;
+	text-align: left;
+}
+.logo{
+	float: none;
+	text-align: left;
+	height: 50px
+}
+.fa-bars{
+	display: block;
+	color: white;
+	float: right;
+	display: inline-block;
+	list-style: none;
+	padding: 5px 20px;
+	font-size: 40px;
+}
+
+.nav-list-item{
+	float: none;
+	width: 100%;
+	line-height: 50px;
+	display: none;
+	}
+.visual{
+	width: 90%;
+	height: 650px;
+}
+.visual-name{
+	font-size: 40px;
+	padding-top: 200px;
+}
+.visual-subname{
+	font-size: 18px;
+}
+.portfolio{
+	margin: 0 auto;
+}
+.portfolio-visual{
+	width: 90%;
+}
+.main-name{
+	font-size: 32px;
+}
+.portfolio-photo{
+	padding-top: 30px;
+	margin: 0 auto;
+}
+.portfolio-photo-list{
+	float: none;
+}
+.portfolio-item:nth-child(2n-1){
+	display: none;
+}
+.feature{
+	margin: 0 auto;
+	text-align: center;
+}
+.feature-main{
+	width: 90%;
+}
+.profile{
+	margin: 0 auto;
+}
+.profile-box{
+	width: 90%
+}
+.profile-photo{
+	float: none;
+	margin: 0 auto;
+	text-align: center;
+	width: 90%;
+}
+.mypshoto{
+	margin: 0 auto;
+}
+.myprofile-text{
+	display: block;
+	margin: 0 auto;
+}
+.myprofile-text{
+	float: none;
+	width: 90%;
+	margin-top: 20px;
+}
+.contact{
+	margin: 0 auto
+}
+.contact-main{
+	width: 90%;
+}
+.juusho{
+	width: 90%;
+	float: none;
+	display: block;
+}
+.juusho-main{
+	padding-left: 0;
+	text-align: center;
+	margin: 0 auto;
+}
+.juusho-sub{
+	text-align: center;
+}
+.sns-text{
+	font-size: 20px;
+	padding-top: 20px;
+	margin: 0 auto;
+}
+.sns{
+	float: none;
+	text-align: center;
+	margin: 0 auto;
+}
+.sns-main{
+	padding-left: 0;
+	text-align: center;
+
+}
+.sns-image{
+	margin: 0 auto;
+}
+footer{
+	height: 60px;
+}
+}
+
